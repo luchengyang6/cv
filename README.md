@@ -47,7 +47,7 @@
 ### 项目结构
 ```
 computer-vision-from-scratch/
-├── 📁 chapter1-knn/          # K-近邻分类器
+├── 📁 knn_classifier/          # K-近邻分类器
 ├── 📁 chapter2-softmax/      # Softmax分类器
 ├── 📁 chapter3-fc-net/       # 全连接神经网络
 ├── 📁 chapter4-cnn/          # 卷积神经网络
@@ -86,7 +86,7 @@ chapter1-knn/
 │
 ├── 📁 tests/                 # 单元测试
 │   └── 📄 test_knn.py        # 算法测试
-│
+└── 📁 mnist_jpg/             #mnist数据集
 └── 📁 docs/                  # 文档记录
     ├── 📄 implementation_details.md  # 实现细节
     ├── 📄 llm_interaction_logs.md   # LLM交互记录
@@ -192,7 +192,7 @@ best_params, best_score = grid_search_knn(X, y, param_grid)
 > 
 > **验证过程**: 手动推导距离加权公式，测试边界情况
 
-[查看完整交互记录](./docs/llm_interaction_logs.md)
+[查看完整交互记录](./knn_classifier/docs/llm_interaction_logs.md)
 
 ## 🎓 学习价值
 
